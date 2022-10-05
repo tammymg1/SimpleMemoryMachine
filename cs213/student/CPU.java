@@ -33,7 +33,7 @@ public class CPU extends AbstractSM213CPU {
      * Output registers: pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
      *
      * @throws MainMemory.InvalidAddressException when program counter contains an invalid memory address
-     * @see AbstractSM213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
+     * @see AbstractSM 213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
      */
     @Override
     protected void fetch() throws MainMemory.InvalidAddressException {
