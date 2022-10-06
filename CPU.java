@@ -25,7 +25,7 @@ public class CPU extends AbstractSM213CPU {
     }
 
     /**
-     * Fetch Stage of CPU Cycle.
+     * Fetch Stage of CPU Cycle. ok
      * Fetch instruction at address stored in "pc" register from memory into instruction register
      * and set "pc" to point to the next instruction to execute.
      * <p>
@@ -75,7 +75,7 @@ public class CPU extends AbstractSM213CPU {
      * @throws MainMemory.InvalidAddressException         when instruction references an invalid memory address.
      * @see AbstractSM213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
      * @see MainMemory       for mem
-     * @see machine.AbstractCPU      for reg
+     * @see machine.AbstractCPU      for reg ok1
      */
     @Override
     protected void execute() throws InvalidInstructionException, MachineHaltException, RegisterSet.InvalidRegisterNumberException, MainMemory.InvalidAddressException {
