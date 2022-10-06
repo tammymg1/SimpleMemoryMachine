@@ -1,0 +1,16 @@
+int z[10];
+int w, h, f;
+
+void calc() {
+    f = z[w] + z[w + 2];
+    h = f & 0xff;
+}
+
+
+int d[10];
+int w, h, f;
+
+void calc() {
+    f = d[w] + d[w + 2];
+    m = f & 0xff;
+}
