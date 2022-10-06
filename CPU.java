@@ -75,7 +75,7 @@ public class CPU extends AbstractSM213CPU {
      * @throws MainMemory.InvalidAddressException         when instruction references an invalid memory address.
      * @see AbstractSM213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
      * @see MainMemory       for mem
-     * @see machine.AbstractCPU      for reg ok1
+     * @see machine.AbstractCPU      for reg ok1 commit third
      */
     @Override
     protected void execute() throws InvalidInstructionException, MachineHaltException, RegisterSet.InvalidRegisterNumberException, MainMemory.InvalidAddressException {
